@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Ysabeau", sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 15px 15px;
+  background-color: beige;
+}
+
+.no-webp .post__create-form {
+  background-image: url("/../img/img.jpg"); }
+
+.post__create-form {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  max-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  gap: 15px;
+  padding: 15px 15px;
+  margin-right: 25px;
+  position: relative;
+}
+
+.post__create-form .post__titleForm {
+  margin-bottom: 61px;
+  font-size: 35px;
+}
+
+.post__create-form .post__input-title,
+.post__create-form .post__input-email,
+.post__create-form .post__input-body,
+.post__create-form .post__input-data {
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 3px;
+  width: 250px;
+  height: 35px;
+}
+
+.post__create-form .post__submit {
+  cursor: pointer;
+  padding: 10px 25px;
+  font-size: 16px;
+  margin-top: 35px;
+  border-radius: 3px;
+  background-color: rgb(170, 183, 179);
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.post__create-form .post__submit:hover {
+  background-color: rgb(77, 83, 83);
+}
+
+.post__card {
+  padding: 0 15px;
+  background-color: rgb(179, 179, 179);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.post__card .post__title {
+  margin-bottom: 10px;
+}
+
+.post__card .post__text {
+  margin-bottom: 10px;
+}
+
+.post__card .post__deleteBtn {
+  margin: 10px 0;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.post__card .post__deleteBtn:hover {
+  background-color: rgb(120, 121, 121);
+}
+
+.post__card .post__email {
+  margin-bottom: 10px;
+}
+
+.message {
+  position: absolute;
+  bottom: 20%;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+:-moz-placeholder {
+  font-size: 16px;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+}
+
+:-ms-input-placeholder {
+  font-size: 16px;
+}
+
+.webp .post__create-form { background-image: url(/../img/img.webp); }
