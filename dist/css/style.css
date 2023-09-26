@@ -21,7 +21,7 @@
 }
 
 .no-webp .post__create-form {
-  background-image: url("/../img/img.jpg"); }
+  background-image: url("../img/img.jpg"); }
 
 .post__create-form {
   background-position: center;
@@ -134,4 +134,4 @@
   font-size: 16px;
 }
 
-.webp .post__create-form { background-image: url(/../img/img.webp); }
+.webp .post__create-form { background-image: url(../img/img.webp); }
