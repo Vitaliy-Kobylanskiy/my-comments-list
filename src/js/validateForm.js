@@ -20,7 +20,6 @@ export function validateForm() {
         let emailVal = emailInput.value;
         const inputs = document.querySelectorAll('input');
 
-
         inputs.forEach(input => {
             const inputWrapper = input.parentNode;
             const message = inputWrapper.querySelector('.message');

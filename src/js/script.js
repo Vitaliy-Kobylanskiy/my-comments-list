@@ -4,15 +4,12 @@ import { validateForm } from './validateForm.js';
 import { fetchAll } from './fetch.js';
 import { container, wrapper } from './constants.js';
 
-
-
 fetchAll()
     .then(responses => {
         const [users, posts] = responses;
         createPosts(users, posts);
     })
     .catch(error => console.log(error));
-
 
 function createPosts(users, posts) {
     wrapper.classList.add('post');
@@ -37,7 +34,6 @@ function createPosts(users, posts) {
         deleteButton.innerText = 'Delete Post';
         deleteButton.setAttribute('data-id', post.id);
         deleteButton.classList.add('post__deleteBtn');
-
 
         deleteButton.addEventListener('click', () => {
             const postId = deleteButton.getAttribute('data-id');
