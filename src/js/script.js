@@ -1,3 +1,5 @@
+import * as myFunctions from "./modules/functions.js";
+myFunctions.isWebp();
 import { sendUsers, sendPosts } from './fetch.js';
 import { createPostForm } from './createPostForm.js';
 import { validateForm } from './validateForm.js';
